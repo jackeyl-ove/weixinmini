@@ -1,0 +1,119 @@
+/**index.wxss**/
+.searchinput{
+  border-radius: 10rpx;
+  border:1px solid;
+  border-color: #faa472; 
+  display: inline-block;
+  padding: 10rpx;
+  width: 70%;
+}
+.searchbox{
+  width: 100%;
+  height: auto;
+  padding: 20rpx 0rpx 10rpx 25rpx;
+}
+.searchsubmit{
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 20rpx;
+  border: 2rpx  #faa472 solid;
+  background: #faa472;
+  color: #fff;
+  height: 32.4px;
+  width: 20%;
+}
+.contentbox{
+  margin: 20rpx;
+  padding: 50rpx 30rpx;
+  border-top: 1rpx rgba(185, 176, 176, 0.788) solid;
+  border-bottom: 1rpx rgba(185, 176, 176, 0.788) solid;
+}
+.contentbox button{
+  font-size: 32rpx;
+  letter-spacing: 5rpx;
+  width: 25%;
+  color: #fff;
+  background: #faa472;
+}
+ button:active{
+  background: #fff;
+  color: #faa472;
+}
+.btn{
+  float: right;
+  display: flex;
+  margin-top:80rpx; 
+}
+.title{
+  padding-bottom:40rpx;
+  color: #525252;
+  font-size: 36rpx; 
+}
+.content{
+  overflow: scroll;
+  color: #6d3d3db6;
+  font-size: 29rpx;
+  padding-left:20rpx;
+}
+button{
+  margin-left: 10rpx;
+}
+.btni{
+  position: fixed;
+  left: 600rpx;
+  top: 1000rpx;
+  width: 70rpx!important;
+  height: 70rpx!important;
+  padding: 0!important;
+  background-color: #fff;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 35rpx;
+  border: 5rpx solid black;
+  justify-content: center;
+  font-size: 30rpx;
+  z-index: 1;
+}
+.btnimg{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  background-color: #ffff;
+}
+.top {
+  position: fixed;
+  left: 600rpx;
+  top: 900rpx;
+  width: 70rpx!important;
+  height: 70rpx!important;
+  padding: 0!important;
+  background-color: #fff;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 35rpx;
+  justify-content: center;
+  font-size: 30rpx;
+  z-index: 1;
+}
+.btn2 {
+  width: 50rpx!important;
+  height: 50rpx!important;
+  padding: 0!important;
+  margin-left: 20rpx!important;
+  display: flex;
+  flex-direction: column;
+  border: 0!important;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.btnimg2{
+  width: 50rpx;
+  height: 50rpx;
+  border: 0!important;
+  background-color: #ffff;
+}

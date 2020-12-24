@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+<form bindsubmit="formSubmit" class="searchBackground">
+  <input type="text" class="searchinput" name="searchContent" placeholder='搜索内容' value='{{searchContent}}'/>
+      <button form-type="submit" class="searchsubmit" size="mini">搜 索</button>
+  </form>
+<view>
+<button bindtap="add" class="btni">
+  <image class="btnimg" src="../../images/btn.png"></image>
+</button>
+</view>  
+
+<view class="contentbox" wx:for="{{list}}" id="{{item.objectId}}" wx:key="{{item.objectId}}">
+<view class="title">{{item.name}}</view>
+<view class="content">{{item.content}}</view>
+<view class="time">创建时间：{{item.createdAt}}</view>
+<view class="time2">修改时间：{{item.updatedAt}}</view>
+<view class="btn">
+      <button bindtap="change" id="{{item.objectId}}" class="btn2">
+        <image class="btnimg2" src="../../images/修改.png"></image>
+      </button>
+      <button bindtap='deletel' id="{{item.objectId}}" class="btn2">
+        <image class="btnimg2" src="../../images/删除.png"></image>
+      </button>
+      <button bindtap="check" id="{{item.objectId}}" class="btn2">
+        <image class="btnimg2" src="../../images/查看.png"></image>
+      </button>
+      </view>
+</view>
+<button bindtap="goTop" class="top">
+  <image class="btnimg" src="../../images/向上.png"></image>
+</button>
+
+</view>

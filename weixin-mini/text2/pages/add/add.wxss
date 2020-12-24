@@ -1,0 +1,10 @@
+/* pages/add/add.wxss */
+.addc{
+  margin: 70rpx 20rpx 0rpx 20rpx;
+  padding: 30rpx 20rpx;
+  border: 3rpx solid #FA8072;
+  border-radius: 10rpx;
+}
+.addbt{
+  margin: 50rpx 0 0 0;
+}

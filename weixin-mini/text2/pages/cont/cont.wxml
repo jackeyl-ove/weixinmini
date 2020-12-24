@@ -1,0 +1,5 @@
+<!--pages/cont/cont.wxml-->
+<view id="{{item._id}}" wx:key="{{item._id}}">
+<view class="title">{{name}}</view>
+<view class="content">{{content}}</view>
+</view>

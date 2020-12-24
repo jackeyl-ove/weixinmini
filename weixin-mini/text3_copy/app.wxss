@@ -1,0 +1,20 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+} 
+.addbt{
+  background-color:  #FA8072;
+  color: #fff;
+  font-size: 36rpx;
+  width: 100%;
+  height: 90rpx;
+  border-radius: 0px;
+}
+.addbt:active{
+  color:  #FA8072;
+  background: #fff;
+}

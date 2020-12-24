@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/movie/movie",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "影评",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#392f59",
+    "color": "#8a8a8a",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "影评",
+        "iconPath": "./img/yp.png",
+        "selectedIconPath": "./img/yp-active.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "看电影",
+        "iconPath": "./img/movie.png",
+        "selectedIconPath": "./img/movie-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./img/my.png",
+        "selectedIconPath": "./img/my-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

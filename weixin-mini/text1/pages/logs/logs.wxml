@@ -1,0 +1,17 @@
+<!--logs.wxml-->
+<view>
+  <view class="box1">
+    <image src='{{content.img}}' class="image"></image>
+    <view class="title">
+      {{content.title}}
+    </view>
+    <view wx-if="{{content.id==3}}" style='color:red;'>这是彩蛋</view>
+  </view>
+
+  <view class="box2">
+    <view class="sale">影片介绍：</view>
+    <view>
+      {{content.dis}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box" wx:for="{{content}}" wx:key="{{item.id}}">
+  <image class="image" src='{{item.img}}' alt=""></image>
+  <view class="title">{{item.title}}</view>
+  <view class="time">{{item.time}}</view>
+  <button class="button" bindtap='tologs' id="{{item.id}}">想 看</button>
+</view>
+

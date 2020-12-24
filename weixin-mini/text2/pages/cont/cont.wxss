@@ -1,0 +1,14 @@
+/* pages/cont/cont.wxss */
+.title{
+  padding-bottom:40rpx;
+  color: #000000;
+  font-size: 60rpx;
+  font-weight: 700; 
+}
+.content{
+  overflow: scroll;
+  color: #222020b6;
+  font-size: 30rpx;
+  padding-left:20rpx;
+  text-indent: 2em;
+}
